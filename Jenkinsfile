@@ -22,7 +22,7 @@ pipeline {
 			steps {
 				script {
 					echo "Deploying the job"
-                	 sh "/usr/bin/aws s3 cp ./hello.py s3://teebucket1"
+                	 //sh "/usr/bin/aws s3 cp ./hello.py s3://teebucket1"
 				}
 			}
 		}
