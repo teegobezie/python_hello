@@ -21,7 +21,7 @@ pipeline {
 		stage('Deploy') {
 			steps {
 				sh 'echo "Deploying the job"'
-                sh 'aws s3 cp ./hello.py s3://teebucket1
+                sh 'aws s3 cp ./hello.py s3://teebucket1'
 			}
 		}
 
